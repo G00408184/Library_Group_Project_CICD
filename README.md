@@ -2,25 +2,25 @@
 
 This project is a distributed **Library Management System** built using microservices architecture with Java and Spring Boot. The system consists of three core microservices:
 
-- **User Manager**: Handles user registration, login, and role management (admin or regular user).
-- **Book Manager**: Manages book inventory, including adding, updating, and deleting books.
-- **Loan Service**: Allows users to loan books, track loan durations, and request extensions.
+- **User MicroService**: Handles user registration, login, and role management (admin or regular user).
+- **Book ServiceApi**: Manages book inventory, including adding, updating, and deleting books.
+- **Loan ServiceAPI**: Allows users to loan books, track loan durations, and request extensions.
 
 Each microservice operates independently and communicates via REST APIs.
 
 ## Microservices Overview
 
-### 1. **User Manager**
+### 1. **User MicroService**
    - **Description**: This microservice manages user-related operations like registration, login, and user role verification (admin vs regular user).
-   - **Repository**: [User Manager Microservice](Insert Link to Repository)
+   - **Repository**: [User MicroService](https://github.com/G00408184/UserMicroService.git)
 
-### 2. **Book Manager**
+### 2. **Book ServiceApi**
    - **Description**: This microservice manages book-related operations, such as adding, updating, and deleting books from the library.
-   - **Repository**: [Book Manager Microservice](Insert Link to Repository)
+   - **Repository**: [Book ServiceApi](https://github.com/G00408184/BookServiceAPI)
 
-### 3. **Loan Service**
+### 3. **Loan ServiceAPI**
    - **Description**: This microservice handles the loaning of books, tracking of loan durations, overdue book notifications, and extensions for loans.
-   - **Repository**: [Loan Service Microservice](Insert Link to Repository)
+   - **Repository**: [Loan ServiceAPI](https://github.com/G00408184/LoanManagerAPI)
 
 ## Technologies Used
 - **Java**: Core language for building the microservices.
@@ -35,9 +35,9 @@ Each microservice operates independently and communicates via REST APIs.
 ## How to Run the Project
 
 1. Clone each of the microservices repositories and follow the instructions in their individual `README.md` files:
-   - [User Manager Microservice](Insert Link to Repository)
-   - [Book Manager Microservice](Insert Link to Repository)
-   - [Loan Service Microservice](Insert Link to Repository)
+   - [User MicroService](https://github.com/G00408184/UserMicroService.git)
+   - [Book ServiceApi](https://github.com/G00408184/BookServiceAPI)
+   - [Loan ServiceAPI](https://github.com/G00408184/LoanManagerAPI)
 
 2. Ensure you have Docker and Docker Compose installed on your machine.
 
